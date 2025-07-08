@@ -19,7 +19,7 @@ namespace Assignments1._2._3
                 Console.WriteLine("'d' for division");
                 Console.WriteLine("'e' to exit");
 
-                char value = Convert.ToChar(Console.ReadLine());
+                char value = Convert.ToChar(Console.ReadLine().ToLower());
 
                 switch (value)
                 {
