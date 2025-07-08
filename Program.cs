@@ -7,7 +7,7 @@ namespace Assignments1._2._3
     {
         static void Main(string[] args)
         {
-            Boolean flag = true;
+            bool flag = true;
             Console.WriteLine("Welcome to the calculations app.");
             do
             {
