@@ -13,11 +13,11 @@ namespace Assignments1._2._3
             {
 
                 Console.WriteLine("\nPlease enter:");
-                Console.WriteLine("'a' for addition");
-                Console.WriteLine("'s' for subtraction");
-                Console.WriteLine("'m' for multiplication");
-                Console.WriteLine("'d' for division");
-                Console.WriteLine("'e' to exit");
+                Console.WriteLine("\"a\" for addition");
+                Console.WriteLine("\"s\" for subtraction");
+                Console.WriteLine("\"m\" for multiplication");
+                Console.WriteLine("\"d\" for division");
+                Console.WriteLine("\"e\" to exit");
 
                 char value = Convert.ToChar(Console.ReadLine().ToLower());
 
@@ -75,6 +75,12 @@ namespace Assignments1._2._3
             double firstDividedNumber = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Please enter the second number not zero.");
             double secondDividedNumber = Convert.ToDouble(Console.ReadLine());
+            while (secondDividedNumber == 0)
+            {
+                Console.WriteLine("Please enter a number not zero");
+                secondDividedNumber = Convert.ToDouble(Console.ReadLine());
+            }
+           
             Console.WriteLine($"The answer is: {firstDividedNumber / secondDividedNumber}");
         }
     }
