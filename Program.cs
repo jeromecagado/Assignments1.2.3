@@ -47,7 +47,7 @@ namespace Assignments1._2._3
             } while (flag);
         }
         
-        public static void Addition()
+        static void Addition()
         {
             Console.WriteLine("Please enter the first number");
             int firstIntegerNumber = Convert.ToInt32(Console.ReadLine());
@@ -56,7 +56,7 @@ namespace Assignments1._2._3
             Console.WriteLine($"The answer is:{firstIntegerNumber + secondIntegerNumber}\n");
         }
 
-        public static void Subtraction()
+        static void Subtraction()
         {
             Console.WriteLine("Please enter the first number");
             int firstSubtractedNumber = Convert.ToInt32(Console.ReadLine());
@@ -65,7 +65,7 @@ namespace Assignments1._2._3
             Console.WriteLine($"The answer is: {firstSubtractedNumber - secondSubtractedNumber}\n");
         }
 
-        public static void Multiplication()
+        static void Multiplication()
         {
             Console.WriteLine("Please enter the first number");
             int firstMultipliedNumber = Convert.ToInt32(Console.ReadLine());
@@ -74,7 +74,7 @@ namespace Assignments1._2._3
             Console.WriteLine($"The answer is: {firstMultipliedNumber * secondMultipliedNumber}\n");
         }
 
-        public static void Division()
+        static void Division()
         {
             Console.WriteLine("Please enter the first number");
             double firstDividedNumber = Convert.ToDouble(Console.ReadLine());
